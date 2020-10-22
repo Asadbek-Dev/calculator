@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class="container">
+          <!-- ekrani ya'ni kiritgan sonimizni bizga ko'rsatadigan joyi calculator-head -->
+          <div class="row">
+              <div class="col-md-6 offset-md-3">
+                  <form action="">
+                     <input type="text" id="inputValue" disabled>
+                  </form>
+              </div>
+          </div>
+          <!-- knopkalar qismi calculator-body -->
+          <div class="row">
+              <div class="col-md-6 offset-md-3">
+                  <div class="row">
+                      <div class="col-md-12">
+                        <button type="button" value="+" class="btn btn-outline-info">+</button>
+                        <button type="button" value="-" class="btn btn-outline-info">-</button>
+                        <button type="button" value="*" class="btn btn-outline-info">*</button>
+                        <button type="button" value="/" class="btn btn-outline-info">/</button>
+                      </div>
+                      <div class="col-md-12">
+                        <button type="button" value="1" class="btn btn-outline-dark">1</button>
+                        <button type="button" value="2" class="btn btn-outline-dark">2</button>
+                        <button type="button" value="3" class="btn btn-outline-dark">3</button>
+                      </div>
+                      <div class="col-md-9">
+                        <button type="button" value="4" class="btn btn-outline-dark">4</button>
+                        <button type="button" value="5" class="btn btn-outline-dark">5</button>
+                        <button type="button" value="6" class="btn btn-outline-dark">6</button>
+                      </div>
+                      <div class="col-md-9">
+                        <button type="button" value="7" class="btn btn-outline-dark">7</button>
+                         <button type="button" value="8" class="btn btn-outline-dark">8</button>
+                         <button type="button" value="9" class="btn btn-outline-dark">9</button>
+                      </div>
+                      <div class="col-md-9">
+                         <button type="button" value="0" class="btn btn-outline-dark">0</button>
+                        <button type="button" value="." class="btn btn-outline-secondary"> . </button>
+                        <button type="button" value="clear" class="btn btn-outline-success">AC</button>
+                        <button type="button" value="=" class="btn btn-outline-danger">=</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

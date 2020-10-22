@@ -1,0 +1,25 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    position: relative;
+    width: 50px;
+}
+button[value="="]{
+    position: absolute;
+    height: 150px;
+    top: -112px;
+    left: 178px;
+}
+input{
+    width: 213px;
+    height: 50px;
+}
+.container{
+    position: relative;
+    top: 200px;
+    left: 160px;
+}
