@@ -18,3 +18,4 @@ function myFunction (event) {
   }
   console.log (event.target.value);
 }
+
